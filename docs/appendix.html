@@ -1,0 +1,506 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js">
+<link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/texmath.css">
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/vscode-texmath.css">
+
+</head><body>
+<link rel="stylesheet" href="report.css" type="text/css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<h2 id="appendix-1" data-line="3" class="code-line">Appendix</h2>
+<h3 id="tables-1" data-line="5" class="code-line">Tables</h3>
+<div class="table-parent">
+<p class="table-caption"><a name="table2"><b>Table 1</b></a>.
+Spearman's correlation coefficient between the demographic and medical history features provided in the dataset and ΔACQ, the change in ACQ scores between the first administration of the questionnaire and the average of the subsequent four administrations of the questionnaire. N corresponds to the number of rows where the given feature is not null.
+</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Feature name</th>
+<th style="text-align:right">Spearman's ρ</th>
+<th style="text-align:right">p-value</th>
+<th style="text-align:right">N</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">gender</td>
+<td style="text-align:right">-0.3964</td>
+<td style="text-align:right">0.0678</td>
+<td style="text-align:right">22.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">retire</td>
+<td style="text-align:right">-0.1995</td>
+<td style="text-align:right">0.0930</td>
+<td style="text-align:right">72.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">arthritis</td>
+<td style="text-align:right">0.1514</td>
+<td style="text-align:right">0.1214</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">vaccine</td>
+<td style="text-align:right">-0.1507</td>
+<td style="text-align:right">0.1230</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">CVD</td>
+<td style="text-align:right">0.1419</td>
+<td style="text-align:right">0.1469</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">age</td>
+<td style="text-align:right">-0.1186</td>
+<td style="text-align:right">0.1582</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">sex</td>
+<td style="text-align:right">-0.1190</td>
+<td style="text-align:right">0.1935</td>
+<td style="text-align:right">121.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">smoking</td>
+<td style="text-align:right">-0.1234</td>
+<td style="text-align:right">0.2077</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">allergy</td>
+<td style="text-align:right">0.1093</td>
+<td style="text-align:right">0.2648</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">polyps</td>
+<td style="text-align:right">-0.1040</td>
+<td style="text-align:right">0.2885</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">eos300</td>
+<td style="text-align:right">0.0901</td>
+<td style="text-align:right">0.2969</td>
+<td style="text-align:right">136.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">Prev-biologic</td>
+<td style="text-align:right">0.0944</td>
+<td style="text-align:right">0.3359</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">race</td>
+<td style="text-align:right">-0.0390</td>
+<td style="text-align:right">0.6436</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-yellowfever</td>
+<td style="text-align:right">-0.0366</td>
+<td style="text-align:right">0.6644</td>
+<td style="text-align:right">1.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-heartfailure</td>
+<td style="text-align:right">0.0977</td>
+<td style="text-align:right">0.6818</td>
+<td style="text-align:right">20.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-asthma</td>
+<td style="text-align:right">-0.0827</td>
+<td style="text-align:right">0.7289</td>
+<td style="text-align:right">20.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-pneumonia</td>
+<td style="text-align:right">0.0766</td>
+<td style="text-align:right">0.7413</td>
+<td style="text-align:right">21.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-diabetes</td>
+<td style="text-align:right">0.0727</td>
+<td style="text-align:right">0.7541</td>
+<td style="text-align:right">21.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-copd</td>
+<td style="text-align:right">0.0966</td>
+<td style="text-align:right">0.7653</td>
+<td style="text-align:right">12.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">disab</td>
+<td style="text-align:right">0.0251</td>
+<td style="text-align:right">0.7664</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">work</td>
+<td style="text-align:right">-0.0141</td>
+<td style="text-align:right">0.8676</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">weight</td>
+<td style="text-align:right">0.0162</td>
+<td style="text-align:right">0.8691</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">bmi</td>
+<td style="text-align:right">-0.0147</td>
+<td style="text-align:right">0.8813</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">height</td>
+<td style="text-align:right">0.0129</td>
+<td style="text-align:right">0.8959</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-arthritis</td>
+<td style="text-align:right">-0.0101</td>
+<td style="text-align:right">0.9043</td>
+<td style="text-align:right">5.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">demographics_table</td>
+<td style="text-align:right">0.0009</td>
+<td style="text-align:right">0.9911</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">medhistory_table</td>
+<td style="text-align:right">0.0009</td>
+<td style="text-align:right">0.9911</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-parent">
+<p class="table-caption"><a name="table2"><b>Table 1</b></a>.
+Spearman's correlation coefficient between the demographic and medical history features provided in the dataset and <em>ΔACQ-lt1</em>, a boolean value which is true if the ACQ scores decreased by more than one point between the first administration of the questionnaire and the average of the subsequent four administrations of the questionnaire. N corresponds to the number of rows where the given feature is not null.
+</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Feature name</th>
+<th style="text-align:right">Spearman's ρ</th>
+<th style="text-align:right">p-value</th>
+<th style="text-align:right">N</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">age</td>
+<td style="text-align:right">0.2017</td>
+<td style="text-align:right">0.0157</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">retire</td>
+<td style="text-align:right">0.2663</td>
+<td style="text-align:right">0.0238</td>
+<td style="text-align:right">72.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">sex</td>
+<td style="text-align:right">0.1554</td>
+<td style="text-align:right">0.0887</td>
+<td style="text-align:right">121.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-diabetes</td>
+<td style="text-align:right">-0.3464</td>
+<td style="text-align:right">0.1240</td>
+<td style="text-align:right">21.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">race</td>
+<td style="text-align:right">0.1172</td>
+<td style="text-align:right">0.1632</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">gender</td>
+<td style="text-align:right">0.2844</td>
+<td style="text-align:right">0.1996</td>
+<td style="text-align:right">22.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">CVD</td>
+<td style="text-align:right">-0.1242</td>
+<td style="text-align:right">0.2047</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-pneumonia</td>
+<td style="text-align:right">-0.2066</td>
+<td style="text-align:right">0.3689</td>
+<td style="text-align:right">21.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-yellowfever</td>
+<td style="text-align:right">0.0734</td>
+<td style="text-align:right">0.3835</td>
+<td style="text-align:right">1.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">arthritis</td>
+<td style="text-align:right">-0.0702</td>
+<td style="text-align:right">0.4746</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">allergy</td>
+<td style="text-align:right">-0.0691</td>
+<td style="text-align:right">0.4818</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">disab</td>
+<td style="text-align:right">-0.0576</td>
+<td style="text-align:right">0.4945</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">Prev-biologic</td>
+<td style="text-align:right">-0.0655</td>
+<td style="text-align:right">0.5049</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">vaccine</td>
+<td style="text-align:right">0.0649</td>
+<td style="text-align:right">0.5086</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">work</td>
+<td style="text-align:right">0.0503</td>
+<td style="text-align:right">0.5506</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-asthma</td>
+<td style="text-align:right">0.1307</td>
+<td style="text-align:right">0.5828</td>
+<td style="text-align:right">20.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-heartfailure</td>
+<td style="text-align:right">-0.1307</td>
+<td style="text-align:right">0.5828</td>
+<td style="text-align:right">20.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">eos300</td>
+<td style="text-align:right">-0.0468</td>
+<td style="text-align:right">0.5885</td>
+<td style="text-align:right">136.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-copd</td>
+<td style="text-align:right">0.1690</td>
+<td style="text-align:right">0.5995</td>
+<td style="text-align:right">12.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">smoking</td>
+<td style="text-align:right">0.0377</td>
+<td style="text-align:right">0.7013</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">medhistory_table</td>
+<td style="text-align:right">0.0181</td>
+<td style="text-align:right">0.8306</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">demographics_table</td>
+<td style="text-align:right">0.0181</td>
+<td style="text-align:right">0.8306</td>
+<td style="text-align:right">143.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">weight</td>
+<td style="text-align:right">-0.0203</td>
+<td style="text-align:right">0.8366</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">height</td>
+<td style="text-align:right">-0.0169</td>
+<td style="text-align:right">0.8638</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">co-arthritis</td>
+<td style="text-align:right">0.0129</td>
+<td style="text-align:right">0.8785</td>
+<td style="text-align:right">5.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">bmi</td>
+<td style="text-align:right">0.0065</td>
+<td style="text-align:right">0.9469</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+<tr>
+<td style="text-align:left">polyps</td>
+<td style="text-align:right">0.0032</td>
+<td style="text-align:right">0.9744</td>
+<td style="text-align:right">106.0000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-parent">
+<p class="table-caption"><a name="table2"><b>Table 2</b></a>.
+LightGBM parameters which were evaluated using grid-search. The accuracy of each trained classifier was evaluated using 10-fold cross-validation, and the parameters that produced a classifier with the highest cross-validation accuracy are provided in the "Final value" column.
+</p>
+<table>
+<thead>
+<tr>
+<th>Parameter name</th>
+<th>Values attempted</th>
+<th>Final value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>boosting_type</td>
+<td><code>[&quot;gbdt&quot;]</code></td>
+<td><code>&quot;gbdt&quot;</code></td>
+</tr>
+<tr>
+<td>learning_rate</td>
+<td><code>[0.001, 0.005, 0.01, 0.05, 0.1, 0.2]</code></td>
+<td><code>0.1</code></td>
+</tr>
+<tr>
+<td>num_leaves</td>
+<td><code>[2, 4, 6, 8, 12, 16, 24, 32]</code></td>
+<td><code>6</code></td>
+</tr>
+<tr>
+<td>num_iterations</td>
+<td><code>[5, 10, 20, 50, 100, 200]</code></td>
+<td><code>5</code></td>
+</tr>
+<tr>
+<td>min_sum_hessian_in_leaf</td>
+<td><code>[0]</code></td>
+<td><code>0</code></td>
+</tr>
+<tr>
+<td>min_data_in_leaf</td>
+<td><code>[1, 5, 10, 20]</code></td>
+<td><code>10</code></td>
+</tr>
+<tr>
+<td>max_bin</td>
+<td><code>[15, 31, 63, 123, 255]</code></td>
+<td><code>31</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p data-line="100" class="code-line"><br><br></p>
+<h3 id="figures-1" data-line="102" class="code-line">Figures</h3>
+<figure class="fig">
+<div class="row">
+  <div class="column">
+    <img src="notebooks/data-challenge/HeightInOutStudy.svg" width="40%" />
+  </div>
+</div>
+<figcaption><a name="figure1"><b>Figure 1</b></a>.
+Box-plot showing the difference in height between the individuals who were enrolled in the study (as evinced by their presence in the ACQ table) and individuals who were <em>not</em> enrolled in the study. The difference is significant (p-value < 0.05; two-sided t-test).
+</figcaption>
+</figure>
+<figure class="fig">
+<div class="row">
+  <div class="column" style="width: 5%"></div>
+  <div class="column">
+    <p style="margin-bottom: -1em">A</p>
+    <img src="figures/acq-scores-1.svg" width="90%" />
+  </div>
+  <div class="column" style="width: 5%"></div>
+  <div class="column">
+    <p style="margin-bottom: -1em">B</p>
+    <img src="figures/acq-scores-2.svg" width="90%" />
+  </div>
+  <div class="column" style="width: 5%"></div>
+</div>
+<figcaption><a name="figure2"><b>Figure 2</b></a>.
+<b>(A)</b> Line-plot showing changes in ACQ scores of all individuals enrolled in the study. Most individuals had four follow-up measurements around 10, 20, 40, and 100 days after the initial survey was conducted. Participants whose ACQ score was reported to be higher than 6 were excluded from our analysis since the maximum ACQ score is 6, and the pattern of ACQ scores for those individuals is distinctly different from the pattern shown by the majority of the participants. <b>(B)</b> Box-plot showing the distribution in ACQ scores for the initial visit and the four subsequent follow-ups for participants whose reported ACQ score was ≤ 6 throughout the study.
+</figcaption>
+</figure>
+<figure class="fig">
+<div class="row">
+  <div class="column">
+    <img src="notebooks/data-challenge/loanTree.svg" width="100%" />
+  </div>
+</div>
+<figcaption><a name="figure3"><b>Figure 3</b></a>.
+Visualization of a decision tree trained to predict whether the ACQ score of an individual will decrease by at least 1 point on average over the four follow-up surveys. A decision tree allows for intuitive visualization of how the interaction between different features is predictive of a particular outcome.
+</figcaption>
+</figure>
+<figure class="fig">
+<div class="row">
+  <div class="column">
+    <img src="notebooks/data-challenge/Confusion_matrix.svg" width="40%" />
+  </div>
+</div>
+<figcaption><a name="figure4"><b>Figure 4</b></a>.
+A confusion matrix corresponding to the decision tree displayed in <a href="#figure3">Figure 3</a>. The predicted values shown in the matrix correspond to predictions made by the trained decision trees in 5-fold cross-validation. The overall validation accuracy of the decision trees is 59.44%.
+</figcaption>
+</figure>
+<figure class="fig">
+<div class="row">
+  <div class="column">
+    <p style="margin-bottom: -1em">A</p>
+    <img src="notebooks/02_lightgbm_binary/feature-importance.svg" width="72%" />
+  </div>
+  <div class="column">
+    <p style="margin-bottom: -1em">B</p>
+    <img src="notebooks/02_lightgbm_binary/model-accuracy.svg" width="90%" />
+  </div>
+  <div class="column">
+    <p style="margin-bottom: -1em">C</p>
+    <img src="notebooks/02_lightgbm_binary/model-roc.svg" width="82%" />
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <p style="margin-bottom: -1em">D</p>
+    <img src="notebooks/02_lightgbm_binary/shap-age.svg" width="90%" />
+  </div>
+  <div class="column">
+    <p style="margin-bottom: -1em">E</p>
+    <img src="notebooks/02_lightgbm_binary/shap-CVD.svg" width="90%" />
+  </div>
+  <div class="column">
+    <p style="margin-bottom: -1em">F</p>
+    <img src="notebooks/02_lightgbm_binary/shap-retire.svg" width="90%" />
+  </div>
+</div>
+<figcaption><a name="figure5"><b>Figure 5</b></a>.
+<b>(A)</b> Feature importance of a stochastic gradient-boosted decision tree classifier (SGBDT) trained to predict whether an individual will have a decrease in their average ACQ score over the four follow-up surveys of at least 1 point. Age is the most important feature, involved in 5 splits inside the decision trees, followed by CVD, involved in 3 splits, and <em>retire</em>, involved in 2 splits. <b>(B)</b> Histogram showing predictions made by trained SGBDT classifiers during 10-fold cross-validation for individuals who either showed a decrease in the average ACQ score over the four follow-up surveys of at least 1 point (blue) or did not show such a decrease (orange). With a threshold of 0.5, the SGBDT classifier shows an accuracy of 61.54%, which is marginally higher than the accuracy achieved by the decision tree classifier (see <a href="#figure4">Figure 4</a>). <b>(C)</b> The receiver operator characteristic curve showing the trade-off between the false positive rate and the true positive rate for predictions made by trained SGBDT classifiers during 10-fold cross-validation. The area under the receiver operator characteristic curve is 0.593, which is higher that what would be expected from a classifier guessing at random (black dashed line). <b>(D-F)</b> Partial dependence plots showing the effect that <em>age</em> <b>(D)</b>, <em>CVD</em> <b>(E)</b>, and <em>retire</em> <b>(F)</b> features have on the predictions made by the classifier. An age greater than 35, a CVD less than 0.4, and being retired, are all associated with a higher probability of an at least 1 point decrease in the ACQ score over the course of the study. In younger individuals, the CVD score has a decreased effect on the prediction of the network <b>(E)</b>, while in people with a low CVD score, age has an <em>increased</em> effect on the prediction of the network <b>(D)</b>.
+</figcaption>
+</figure>
+
+</body></html>
